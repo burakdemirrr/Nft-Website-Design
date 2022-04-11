@@ -4,27 +4,29 @@
     display: flex;
     flex-direction: column;
     max-width:100%;
-    padding:0 180px;
     margin-top:100px;
+    padding:0 180px;
 }
 .team h1{
     font-size:4rem;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
 }
 .cards{
     display: flex;
     align-items: center;
     gap:35px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card{
     border-radius: 15px;
-    width:420px;
-    height:400px;
+    width:350px;
+    height: 363px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-end;
+    flex-wrap: wrap;
     color:White;
     margin-top:50px;
     padding:25px;
@@ -33,7 +35,7 @@
     background:linear-gradient(
         to bottom,
         rgba(102, 54, 54, 0),
-        rgba(0,0,0,0.7)
+        rgba(0, 0, 0, 0.537)
       ),url("../../images/unnamed\ \(29\).png");
     background-position: center;
     background-size: contain;
@@ -42,7 +44,7 @@
     background:linear-gradient(
         to bottom,
         rgba(102, 54, 54, 0),
-        rgba(0,0,0,0.7)
+        rgba(0,0,0,0.537)
       ),url("../../images/unnamed\ \(28\).png");
     background-position: center;
     background-size: contain;
@@ -52,7 +54,7 @@
     background:linear-gradient(
         to bottom,
         rgba(102, 54, 54, 0),
-        rgba(0,0,0,0.7)
+        rgba(0,0,0,0.537)
       ),url("../../images/unnamed\ \(18\).png");
     background-position: center;
     background-size: contain;
@@ -62,7 +64,7 @@
     background:linear-gradient(
         to bottom,
         rgba(102, 54, 54, 0),
-        rgba(0,0,0,0.7)
+        rgba(0,0,0,0.537)
       ),url("../../images/unnamed\ \(22\).png");
     background-position: center;
     background-size: contain;
@@ -72,7 +74,7 @@
     background:linear-gradient(
         to bottom,
         rgba(102, 54, 54, 0),
-        rgba(0,0,0,0.7)
+        rgba(0,0,0,0.537)
       ),url("../../images/unnamed\ \(25\).png");
     background-position: center;
     background-size: contain;
@@ -82,7 +84,7 @@
     background:linear-gradient(
         to bottom,
         rgba(102, 54, 54, 0),
-        rgba(0,0,0,0.7)
+        rgba(0,0,0,0.537)
       ),url("../../images/unnamed\ \(16\).png");
     background-position: center;
     background-size: contain;

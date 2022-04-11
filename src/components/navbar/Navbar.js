@@ -38,9 +38,9 @@ function Navbar() {
       <ul className={active ? `mobile-nav` : "mobile-nav nav__active"}>
         <li className='nav__item'><a href="#">Home</a></li>
         <li className='nav__item'><a href="#">About</a></li>
-        <li className='nav__item'><a href="#">Contracts</a></li>
-        <li className='nav__item'><a href="#">Team</a></li>
         <li className='nav__item'><a href="#">Roadmap</a></li>
+        <li className='nav__item'><a href="#">Team</a></li>
+        <li className='nav__item'><a href="#">FAQ</a></li>
       </ul>
       <div className="right">
         <a href="#"><GitHubIcon className='icon' /></a>
