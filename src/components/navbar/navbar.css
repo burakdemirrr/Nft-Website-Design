@@ -1,0 +1,131 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    flex:1;
+    justify-content: space-around;
+    widtH:100%;
+    padding:0 70px;
+    position: sticky;
+    height:12vh;
+    gap:20px;
+    min-height: 10vh;
+    max-height: 15vh;
+    top:0;
+}
+.navbar_active{
+    background-color: rgb(255, 255, 255); 
+    backdrop-filter: blur(4px);
+    z-index: 3;
+}
+.logo{
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.logo h3{
+    font-family: 'Akaya Telivigala', cursive;
+            font-size:3.5rem;
+}
+.mobile-nav{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    z-index: 2;
+    position: relative;
+
+}
+.mobile-nav li{
+    list-style: none;
+}
+.mobile-nav li a {
+    text-decoration: none;
+    color:black;
+    letter-spacing:.3px;
+    font-weighT:600;
+}
+.mobile-nav li::after{
+    content: '';
+    width:0%;
+    height:2px;
+    display: block;
+    background: black;
+    transition: all 0.3s ease;
+}
+.mobile-nav  li:hover::after{
+    width:100%;
+}
+.right{
+    display: flex;
+        align-items: center;
+        cursor: pointer;
+        gap:15px;
+}
+.right .icon{
+    color:black;
+    font-size:26px;
+}
+.nav__toggler div{
+    width:2.6rem;
+    height:0.25rem;
+    margin:0.4rem;
+    border-radius: 55px;
+    background: rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.nav__toggler{
+    cursor:pointer;
+    z-index: 3;
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .navbar{
+        padding: 0 20px;
+    }
+    .nav__toggler{
+        display: block;
+        margin-right: 25px;
+    }
+    .mobile-nav {
+        position: absolute;
+        top:0;
+        right:0;
+        z-index:2;
+        width:100%;
+        min-height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(243, 242, 242, 0.896); 
+        backdrop-filter: blur(5px);
+        flex-direction: column;
+        transform:translateY(-150%);
+        transition:1s;
+    }
+    .mobile-nav li::after{
+        display: none;
+    }
+    .mobile-nav .nav__item{
+        width:100%;
+        display: flex;
+        padding:20px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size:25px;
+    }
+    .nav__active{
+        transform: translateY(0%);
+    }
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-7px,5px);
+    }
+
+    .toggle .line2{
+        opacity:0;
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-7px,-7px);
+    }
+   
+}

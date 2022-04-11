@@ -1,0 +1,35 @@
+.chapters {
+    border-left: thin solid #100f0f;
+    display: flex;
+    justify-content: space-between;
+}
+.roadmap{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    max-width:100%;
+    padding:0 180px;
+}
+.roadmap h1{
+    font-size:4rem;
+    margin-bottom: 55px;
+}
+.chapters .text{
+    max-width: 750px;
+    font-size:25px;
+    font-weight: bold;
+}
+.chapters .title{
+    font-size:13px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-left:5px;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    text-underline-offset: 1px;
+}
+.roadmap .chaptar{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
