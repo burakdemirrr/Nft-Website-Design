@@ -11,3 +11,109 @@
     font-size:4rem;
     margin-bottom: 55px;
 }
+.cards{
+    display: flex;
+    align-items: center;
+    gap:35px;
+    justify-content: space-between;
+}
+.card{
+    border-radius: 15px;
+    width:420px;
+    height:400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:White;
+    margin-top:50px;
+    padding:25px;
+}
+.card1 {
+    background:linear-gradient(
+        to bottom,
+        rgba(102, 54, 54, 0),
+        rgba(0,0,0,0.7)
+      ),url("../../images/unnamed\ \(29\).png");
+    background-position: center;
+    background-size: contain;
+}
+.card2{
+    background:linear-gradient(
+        to bottom,
+        rgba(102, 54, 54, 0),
+        rgba(0,0,0,0.7)
+      ),url("../../images/unnamed\ \(28\).png");
+    background-position: center;
+    background-size: contain;
+    
+}
+.card3{
+    background:linear-gradient(
+        to bottom,
+        rgba(102, 54, 54, 0),
+        rgba(0,0,0,0.7)
+      ),url("../../images/unnamed\ \(18\).png");
+    background-position: center;
+    background-size: contain;
+}
+
+.card5{
+    background:linear-gradient(
+        to bottom,
+        rgba(102, 54, 54, 0),
+        rgba(0,0,0,0.7)
+      ),url("../../images/unnamed\ \(22\).png");
+    background-position: center;
+    background-size: contain;
+}
+
+.card6{
+    background:linear-gradient(
+        to bottom,
+        rgba(102, 54, 54, 0),
+        rgba(0,0,0,0.7)
+      ),url("../../images/unnamed\ \(25\).png");
+    background-position: center;
+    background-size: contain;
+}
+
+.card4{
+    background:linear-gradient(
+        to bottom,
+        rgba(102, 54, 54, 0),
+        rgba(0,0,0,0.7)
+      ),url("../../images/unnamed\ \(16\).png");
+    background-position: center;
+    background-size: contain;
+}
+.card1:hover{
+    background:url("../../images/unnamed\ \(29\).png");
+    background-position: center;
+    background-size: contain;
+}
+.card2:hover{
+    background:url("../../images/unnamed\ \(28\).png");
+    background-position: center;
+    background-size: contain;
+}
+.card3:hover{
+    background:url("../../images/unnamed\ \(18\).png");
+    background-position: center;
+    background-size: contain;
+}
+.card4:hover{
+    background:url("../../images/unnamed\ \(16\).png");
+    background-position: center;
+    background-size: contain;
+}
+.card5:hover{
+    background:url("../../images/unnamed\ \(22\).png");
+    background-position: center;
+    background-size: contain;
+}
+.card6:hover{
+    background:url("../../images/unnamed\ \(25\).png");
+    background-position: center;
+    background-size: contain;
+}
