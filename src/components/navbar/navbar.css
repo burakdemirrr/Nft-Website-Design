@@ -64,6 +64,9 @@
     color:black;
     font-size:26px;
 }
+.right .icon:hover{
+    color:rgb(166, 166, 175);
+}
 .nav__toggler div{
     width:2.6rem;
     height:0.25rem;
@@ -84,7 +87,7 @@
     }
     .nav__toggler{
         display: block;
-        margin-right: 25px;
+        margin-right: 33px;
     }
     .mobile-nav {
         position: absolute;
@@ -118,14 +121,32 @@
         transform: translateY(0%);
     }
     .toggle .line1{
-        transform: rotate(-45deg) translate(-7px,5px);
+        transform: rotate(-45deg) translate(-7.5px,5px);
     }
 
     .toggle .line2{
         opacity:0;
     }
     .toggle .line3{
-        transform: rotate(45deg) translate(-7px,-7px);
+        transform: rotate(45deg) translate(-7.5px,-7px);
     }
    
+}
+@media (max-width:575px) {
+    .logo h3{
+        font-size:39px;
+    }
+    .right .icon{
+        font-size:25px;
+    }
+    .nav__toggler{
+        margin-right: 0px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0px 5px;
+    }
+    
 }

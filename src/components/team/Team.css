@@ -21,6 +21,7 @@
 .card{
     border-radius: 15px;
     width:350px;
+    max-width: 350px;
     height: 363px;
     display: flex;
     align-items: flex-start;
@@ -118,4 +119,22 @@
     background:url("../../images/unnamed\ \(25\).png");
     background-position: center;
     background-size: contain;
+}
+
+@media (max-width:875px){
+    .team{
+        padding:0px;
+        text-align: center;
+        margin-top:30px;
+    }
+    .cards{
+        justify-content: center;
+    }
+}
+@media (max-width:575px){
+    .team h1{
+       
+        margin-bottom:5px;
+    }
+    
 }

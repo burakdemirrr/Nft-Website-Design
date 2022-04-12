@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div className='main'>
       <div className="img-container">
-        <video  height="650"  autoPlay loop muted   >
+        <video    autoPlay loop muted   >
           <source src={video} type="video/mp4"/> 
           </video>  
       </div>

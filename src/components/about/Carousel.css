@@ -1,8 +1,11 @@
 .carousel{
     max-width: 450px;
-    min-width: 250px;
+    min-width: 200px;
     height:70vh;
     margin-left: 20px;
+}
+.swiper-wrapper{
+    width:150px;
 }
 .swiper{
     width:100%;
@@ -20,4 +23,16 @@
 .pagination_swiper{
     color:rgb(252, 0, 101);
     font-size:25px;
+}
+@media (max-width:875px) {
+    .swiper{
+        width:75%;
+    }
+    
+}
+@media (max-width:575px) {
+    .swiper{
+        width:40%;
+    }
+    
 }

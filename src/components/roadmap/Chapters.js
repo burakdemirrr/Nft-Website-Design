@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Roadmap.css"
 
-const Chapters = ({title,text}) => {
+const Chapters = ({tetle,text}) => {
   return (
     <div className='chapters'>
-        <div className="title">
-            <p>{title}</p>
+        <div className="tetle">
+            <p>{tetle}</p>
         </div>
         <div className="text">
             <p>{text}</p>

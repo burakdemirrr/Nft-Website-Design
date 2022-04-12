@@ -3,7 +3,7 @@ import Carousel from './Carousel'
 import "./About.css"
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id="about">
             <Carousel />
             <div className="text__container">
                 <h1>Welcome to the IcApes Club.</h1>

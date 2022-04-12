@@ -120,3 +120,33 @@ button {
         text-align: center;
     }
 }
+@media (max-width:875px){
+    .about{
+        margin-bottom:5rem;
+        padding: 0px 10px;
+    }
+    .text__container h1{
+        font-size:2.13rem;
+    }
+    .text__container h3{
+        font-size:1.1rem;
+    }
+    .text__container p{
+        font-size: .9rem;
+    }
+}
+@media (max-width:575px){
+    .text__container{
+        width:350px;
+    }
+    .text__container h1{
+        font-size:1.6rem;
+        line-height: 1.6rem;
+    }
+    .text__container h3{
+        font-size:1rem;
+    }
+    .text__container p{
+        font-size: .7rem;
+    }
+}

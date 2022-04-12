@@ -20,7 +20,7 @@
     font-size:25px;
     font-weight: bold;
 }
-.chapters .title{
+.chapters .tetle{
     font-size:13px;
     font-weight: 600;
     text-decoration: underline;
@@ -33,4 +33,19 @@
     display: flex;
     flex-direction: column;
     gap:50px;
+}
+@media (max-width:1024px){
+    .roadmap{
+        margin-top:5rem;
+        padding:0px;
+        text-align: center;
+    }
+}
+
+@media (max-width:875px){
+    .chapters .text{
+        font-size:10px;
+        font-weight: bold;
+        max-width: 350px;
+    }
 }

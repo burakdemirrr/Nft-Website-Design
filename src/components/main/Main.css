@@ -15,4 +15,19 @@
 video{
     object-fit: contain;
     z-index: 1;
+    max-height:650px;
+}
+@media (max-width:875px){
+    .main{
+        min-height: 50vh;
+        margin-bottom: 2rem;
+        align-items: initial;
+    }
+}
+@media (max-width:575px){
+    .main{
+        margin-bottom: 2rem;
+        min-height: 40vh;
+        align-items: initial;
+    }
 }

@@ -26,7 +26,7 @@ function Navbar() {
 
 
   return (
-    <div className={navbar ? `navbar navbar_active` : `navbar`}>
+    <div className={navbar ? `navbar navbar_active` : `navbar`} >
       <div className="logo">
         <h3>IcApes.</h3>
       </div>
@@ -35,17 +35,17 @@ function Navbar() {
         <div className="line2"></div>
         <div className="line3"></div>
       </div>
-      <ul className={active ? `mobile-nav` : "mobile-nav nav__active"}>
+      <ul className={active ? `mobile-nav` : "mobile-nav nav__active"} onClick={() => { setActive(!active); setToggleIcon(!toggleIcon) }}>
         <li className='nav__item'><a href="#">Home</a></li>
-        <li className='nav__item'><a href="#">About</a></li>
-        <li className='nav__item'><a href="#">Roadmap</a></li>
-        <li className='nav__item'><a href="#">Team</a></li>
-        <li className='nav__item'><a href="#">FAQ</a></li>
+        <li className='nav__item'><a href="#about">About</a></li>
+        <li className='nav__item'><a href="#roadmap">Roadmap</a></li>
+        <li className='nav__item'><a href="#team">Team</a></li>
+        <li className='nav__item'><a href="#faq">FAQ</a></li>
       </ul>
       <div className="right">
-        <a href="#"><GitHubIcon className='icon' /></a>
-        <a href="#"><FacebookIcon className='icon' /></a>
-        <a href="#"><TwitterIcon className='icon' /></a>
+        <a href="#navbar"><GitHubIcon className='icon' /></a>
+        <a href="#navbar"><FacebookIcon className='icon' /></a>
+        <a href="#navbar"><TwitterIcon className='icon' /></a>
       </div>
 
     </div>

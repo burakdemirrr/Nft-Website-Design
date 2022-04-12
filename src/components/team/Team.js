@@ -2,7 +2,7 @@ import React from 'react'
 import "./Team.css"
 const Team = () => {
   return (
-    <div className='team'>
+    <div className='team' id="team">
         <h1>TEAM</h1>
         <div className="cards">
             <div className="card card1">
