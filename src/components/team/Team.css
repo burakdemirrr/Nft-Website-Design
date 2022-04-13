@@ -138,3 +138,13 @@
     }
     
 }
+@media (max-width:1025px){
+    .team{
+        align-items: center;
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    
+}

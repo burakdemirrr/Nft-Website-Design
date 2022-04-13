@@ -25,7 +25,7 @@ const Team = () => {
             </div>
             <div className="card card5">
                 <h3>Ugur Can Isıldar</h3>
-                <p>Seo Expert</p>
+                <p>Seos Expert</p>
             </div>
             <div className="card card6">
                 <h3>Emre Elbir</h3>
