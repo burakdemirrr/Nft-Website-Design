@@ -28,8 +28,8 @@ const Team = () => {
                 <p>Seos Expert</p>
             </div>
             <div className="card card6">
-                <h3>Emre Elbir</h3>
-                <p>Discord Moderator</p>
+                <h3>Sevval Demirr</h3>
+                <p>Nutritionist</p>
             </div>
         </div>
     </div>
