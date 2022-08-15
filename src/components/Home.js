@@ -7,6 +7,9 @@ import Roadmap from './roadmap/Roadmap'
 import Team from './team/Team'
 import Faq from './faq/Faq'
 import Faqs from './faq/Faqs'
+
+const LazyFaq=React.lazy(()=> import ("./faq/Faqs"))
+
 const Home = () => {
   return (
     <div className='home'>
@@ -15,7 +18,9 @@ const Home = () => {
         <About/>
         <Roadmap/>
         <Team/>
-        <Faqs/>
+        <React.Suspense fallback="loading">
+          <LazyFaq/>
+        </React.Suspense>
     </div>
   )
 }
